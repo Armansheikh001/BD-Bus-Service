@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Ticket_Location">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/text_shape"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:gravity="center"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vai Vai Store"
+                android:textSize="53sp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                />
+
+            <View
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="370dp"
+                android:background="#000"
+                android:layout_height="2dp">
+
+            </View>
+
+            <TextView
+                android:textColor="#000"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adrees : Rajbari Raster Moor,
+                Faridpur"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:textColor="#000"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Road No : R504 "
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:textColor="#000"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note: For Advance Ticket Booking"
+            />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/call_purbasha"
+                android:onClick="call5"
+                android:backgroundTint="#3954e7c5"
+                android:textColor="#000"
+                android:background="@drawable/text_shape"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:textSize="20sp"
+                android:text="Call"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

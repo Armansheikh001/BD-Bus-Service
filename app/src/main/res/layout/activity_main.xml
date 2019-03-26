@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#54e7c5"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:onClick="info"
+        android:background="@drawable/hanif1"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="@drawable/gradient_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textSize="60sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="South Line"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paribahan"
+                android:textSize="25sp"
+                android:layout_marginLeft="220dp"
+                android:textColor="#fff"
+                />
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp">
+
+                    </View>
+                </LinearLayout>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Touch To Check Traveling Information :"
+                    android:textSize="17sp"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:background="@drawable/goldenline"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:onClick="info1"
+            android:background="@drawable/gradient_color2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textSize="60sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Golden Line"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paribahan"
+                android:textSize="25sp"
+                android:layout_marginLeft="220dp"
+                android:textColor="#fff"
+                />
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp">
+
+                    </View>
+                </LinearLayout>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Touch To Check Traveling Information :"
+                    android:textSize="17sp"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:background="@drawable/purbasha3"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:onClick="infoRoyal"
+            android:background="@drawable/gradient4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textSize="60sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROYAL"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paribahan"
+                android:textSize="25sp"
+                android:layout_marginLeft="220dp"
+                android:textColor="#fff"
+                />
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp">
+
+                    </View>
+                </LinearLayout>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Touch To Check Traveling Information :"
+                    android:textSize="17sp"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:weightSum="2"
+        android:background="@drawable/goldenline"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:onClick="infoEagle"
+            android:background="@drawable/gradient_color3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textSize="60sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eagle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paribahan"
+                android:textSize="25sp"
+                android:layout_marginLeft="220dp"
+                android:textColor="#fff"
+                />
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp">
+
+                    </View>
+                </LinearLayout>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Touch To Check Traveling Information :"
+                    android:textSize="17sp"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:background="@drawable/purbasha"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:onClick="infoPurbasha"
+            android:background="@drawable/gradient_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textSize="60sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Purbasha"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paribahan"
+                android:textSize="25sp"
+                android:layout_marginLeft="220dp"
+                android:textColor="#fff"
+                />
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp">
+
+                    </View>
+                </LinearLayout>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Touch To Check Traveling Information :"
+                    android:textSize="17sp"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:background="@drawable/hanif"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:onClick="infoHanif"
+            android:background="@drawable/gardient5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textSize="60sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HANIF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paribahan"
+                android:textSize="25sp"
+                android:layout_marginLeft="220dp"
+                android:textColor="#fff"
+                />
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp">
+
+                    </View>
+                </LinearLayout>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Touch To Check Traveling Information :"
+                    android:textSize="17sp"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:weightSum="2"
+        android:background="@drawable/goldenline"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:onClick="infoShohag"
+            android:background="@drawable/gradient_color2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:textSize="40sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shohag Scania(AC)"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paribahan"
+                android:textSize="25sp"
+                android:layout_marginLeft="220dp"
+                android:textColor="#fff"
+                />
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp">
+
+                    </View>
+                </LinearLayout>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Touch To Check Traveling Information :"
+                    android:textSize="17sp"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:weightSum="2"
+        android:background="@drawable/goldenline"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:onClick="infoJr"
+            android:background="@drawable/gradient_color3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textSize="60sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="J.R"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paribahan"
+                android:textSize="25sp"
+                android:layout_marginLeft="220dp"
+                android:textColor="#fff"
+                />
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp">
+
+                    </View>
+                </LinearLayout>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Touch To Check Traveling Information :"
+                    android:textSize="17sp"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:background="@drawable/purbasha3"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:onClick="infoMamun"
+            android:background="@drawable/gradient4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:textSize="45sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mamun Express"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paribahan"
+                android:textSize="25sp"
+                android:layout_marginLeft="220dp"
+                android:textColor="#fff"
+                />
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp">
+
+                    </View>
+                </LinearLayout>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Touch To Check Traveling Information :"
+                    android:textSize="17sp"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:background="@drawable/purbasha3"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:onClick="infoAK"
+            android:background="@drawable/gardient5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textSize="60sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A.K Travels"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paribahan"
+                android:textSize="25sp"
+                android:layout_marginLeft="220dp"
+                android:textColor="#fff"
+                />
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp">
+
+                    </View>
+                </LinearLayout>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Touch To Check Traveling Information :"
+                    android:textSize="17sp"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:background="@drawable/goldenline"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:onClick="infoLondon"
+            android:background="@drawable/gradient_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="45sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="London Express"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paribahan"
+                android:textSize="25sp"
+                android:layout_marginLeft="220dp"
+                android:textColor="#fff"
+                />
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp">
+
+                    </View>
+                </LinearLayout>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Touch To Check Traveling Information :"
+                    android:textSize="17sp"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

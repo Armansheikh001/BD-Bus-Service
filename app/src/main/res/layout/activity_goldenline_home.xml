@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".goldenline_home">
+
+
+    <LinearLayout
+
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:elevation="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/purbasha_text"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/abc"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Golden Line"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                />
+
+
+
+            <TextView
+                android:fontFamily="@font/abc"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PARIBAHAN"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:onClick="destimeGolden"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/text_shape"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Destination And Time"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:onClick="amountGolden"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/text_shape"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Amount"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:onClick="choiceseat"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="7dp"
+               android:background="@drawable/text_shape"
+                android:gravity="center"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Choice Your Seat"
+                    android:textAllCaps="false"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="buyTicket8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/text_shape"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Purchase Ticket"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

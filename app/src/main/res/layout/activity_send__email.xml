@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Send_Email">
+
+    <TextView
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message :"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="#208affff"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/massageET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="20"
+        android:gravity="start|top"
+        />
+
+    <TextView
+        android:id="@+id/SendBtn"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/text_shape"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Send"
+        />
+
+
+</LinearLayout>

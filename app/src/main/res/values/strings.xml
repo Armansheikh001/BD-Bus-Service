@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">BD Bus Service</string>
+    <string name="line">Golden Line"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Eagle-->
+    <string name="Eagle1">ফরিদপুর - মালিবাগ</string>
+    <string name="Eagle2">বেনাপোল - ফরিদপুর - চট্টগ্রাম</string>
+    <string name="Eagle3">সাতক্ষীরা - ফরিদপুর - চট্টগ্রাম</string>
+    <string name="Eagle4">খুলনা - ফরিদপুর - চট্টগ্রাম</string>
+    <string name="Eagle5">সাতক্ষীরা - ফরিদপুর - খাগরাছড়ি</string>
+
+    <!--Time-->
+    <string name="EagleTime1">ফরিদপুর - মালিবাগ </string>
+    <string name="EagleTimeTB">
+        সকাল-৯ঃ৩০ \n\n
+        সকাল-১২ঃ০০ \n\n
+        দুপুর ২ঃ০০ \n\n
+        বিকাল ৪ঃ০০ \n\n
+        সন্ধ্যা ৭ঃ০০ </string>
+    <string name="EagleTime2">ফরিদপুর -চট্রগ্রাম </string>
+    <string name="EagleTime2TB">  রাত-৮.০০ \n\n রাত-১০ঃ৩০ </string>
+    <string name="EagleTime3">ফরিদপুর -চট্রগ্রাম </string>
+    <string name="EagleTime3TB"> রাত-১০ঃ৩০ </string>
+    <string name="EagleTime4">ফরিদপুর -চট্রগ্রাম  </string>
+    <string name="EagleTime4TB">  রাত-১০ঃ৩০ </string>
+    <string name="EagleTime5">ফরিদপুর -খাগড়াছড়ী  </string>
+    <string name="EagleTime5TB">  বিকাল-৫ঃ৩০ </string>
+
+
+    <!--Purbasa-->
+    <string name="Purbasa1">দর্শনা - ফরিদপুর - চট্টগ্রাম</string>
+    <string name="Purbasa2">জীবনগর - ফরিদপুর - চট্টগ্রাম</string>
+    <string name="Purbasa3">দর্শনা - ফরিদপুর - সিলেট</string>
+    <string name="Purbasa4">জীবনগর - ফরিদপুর - নারায়নগঞ্জ</string>
+
+
+    <!--Purbasa-->
+    <string name="Purbasa_Time">ফরিদপুর - চট্টগ্রাম </string>
+    <string name="Purbasa_TimeTB">    রাত-৭.৩০  </string>
+    <string name="PurbasaTime1">ফরিদপুর - চট্টগ্রাম  </string>
+    <string name="Purbasa_TimeTB1">     রাত-৭.০০    </string>
+    <string name="PurbasaTime2">ফরিদপুর - সিলেট  </string>
+    <string name="Purbasa_TimeTB2">  রাত-৮.০০</string>
+    <string name="PurbasaTime3">ফরিদপুর - নারায়নগঞ্জ </string>
+    <string name="Purbasa_TimeTB3">   রাত-১০.০০ </string>
+
+
+    <!--South Line-->
+    <string name="South_Line1">ফরিদপুর - ঢাকা</string>
+    <string name="South_Line2">ফরিদপুর -বেনাপোল</string>
+
+    <!--South Line time-->
+    <string name="South_LineTime">ফরিদপুর - ঢাকা  </string>
+    <string name="South_LineTimeTB">
+         ভোর-৫ঃ৩০\n\n
+         ভোর-৫ঃ৫৫\n\n
+         সকাল-৬ঃ২৫\n\n
+         সকাল-৭ঃ০০\n\n
+         সকাল-৮ঃ৩৫\n\n
+         সকাল-৯ঃ৩৫\n\n
+         সকাল-১০ঃ২৫\n\n
+         বেলা-১১ঃ০০\n\n
+          বেলা-১১ঃ৩০\n\n
+         দুপুর-১২ঃ৫০\n\n
+         দুপুর-২ঃ৩০\n\n
+         দুপুর-৩ঃ১০\n\n
+         দুপুর-৩ঃ৩০ (এসি)\n\n
+         বিকাল-৪ঃ০০ \n\n
+          বিকাল-৫ঃ০০ \n\n
+         সন্ধ্যা-৬ঃ০০\n\n
+         সন্ধ্যা-৭ঃ০০\n\n
+         রাত-৮ঃ০০ 
+         
+     </string>
+    <string name="South_LineTime1">ফরিদপুর -বেনাপোল</string>
+    <string name="South_LineTimeTB1">
+
+ </string>
+
+
+    <!--Golden Line-->
+    <string name="Golden_Line1">ফরিদপুর - ঢাকা</string>
+
+    <!--Golden LineTime-->
+    <string name="Golden_LineTime">ফরিদপুর - ঢাকা</string>
+
+    <string name="Golden_LineTimeTB">
+    ভোর-৫ঃ৪০\n\n
+        সকাল-৬ঃ০৫\n\n
+        সকাল-৬ঃ৪০\n\n
+        সকাল-৭ঃ১০\n\n
+        সকাল-৭ঃ৩০\n\n
+        সকাল-৭ঃ৪০\n\n
+        সকাল-৮ঃ০৫\n\n
+        সকাল-৮ঃ১০\n\n
+        সকাল-৮ঃ৪৫\n\n
+        সকাল-৯ঃ০০\n\n
+        সকাল-৯ঃ১৫\n\n
+        সকাল-৯ঃ৪৫\n\n
+        সকাল-১০ঃ১৫\n\n
+        সকাল-১০ঃ৪৫\n\n
+        সকাল-১১ঃ১৫\n\n
+        সকাল-১১ঃ৪৫ \n\n
+         দুপুর-১২ঃ১৫\n\n
+         দুপুর-১২ঃ৪৫\n\n
+        দুপুর-১ঃ১৫\n\n
+         দুপুর-১ঃ৪৫\n\n
+         দুপুর-২ঃ১৫\n\n
+         দুপুর-২ঃ৪৫\n\n
+         দুপুর-৩ঃ০০\n\n
+         দুপুর-৩ঃ১৫\n\n
+         দুপুর-৩ঃ৪৫\n\n
+        বিকাল-৪ঃ০৫\n\n
+         বিকাল-৪ঃ১৫\n\n
+         বিকাল-৪ঃ৪৫\n\n
+         বিকাল-৫ঃ১৫\n\n
+         বিকাল-৫ঃ৪৫\n\n
+         সন্ধা-৬ঃ৪৫\n\n
+        সন্ধা-৭ঃ৩০\n\n
+        রাত-৮ঃ০০
+
+    </string>
+
+
+    <!--Royal-->
+    <string name="Royal1">মেহেরপুর - ফরিদপুর - চট্টগ্রাম</string>
+    <string name="Royal2">চুয়াডাঙ্গা - ফরিদপুর - চট্টগ্রাম</string>
+    <string name="Royal3">দর্শনা - ফরিদপুর - সিলেট</string>
+
+    <!--Royal-->
+    <string name="RoyalTime">ফরিদপুর - চট্টগ্রাম  </string>
+    <string name="RoyalTimeTB"> রাত-৭ঃ০০  </string>
+    <string name="RoyalTime1">ফরিদপুর - চট্টগ্রাম  </string>
+    <string name="RoyalTimeTB1"> রাত-৭ঃ৩০ </string>
+    <string name="RoyalTime2">ফরিদপুর - সিলেট  </string>
+    <string name="RoyalTimeTB2">    রাত-৭ঃ৩০  </string>
+
+    <!--Hanif-->
+    <string name="Hanif1">খুলনা - ফরিদপুর - চট্টগ্রাম</string>
+    <string name="Hanif2">সাতক্ষীরা - ফরিদপুর - চট্টগ্রাম</string>
+    <string name="Hanif3">বেনাপোল - ফরিদপুর - চট্টগ্রাম</string>
+    <string name="Hanif4">খুলনা - ফরিদপুর - সিলেট</string>
+
+    <!--Time-->
+    <string name="HanifTime1">ফরিদপুর - চট্রগ্রাম </string>
+    <string name="HanifTime1TB"> রাত-৭ঃ৩০</string>
+    <string name="HanifTime2">ফরিদপুর - চট্রগ্রাম </string>
+    <string name="HanifTime2TB">  রাত-৮৩০</string>
+    <string name="HanifTime3">ফরিদপুর - চট্রগ্রাম</string>
+    <string name="HanifTime3TB">রাত-১১.০০</string>
+    <string name="HanifTime4">ফরিদপুর - সিলেট </string>
+    <string name="HanifTime4TB"> রাত-৯ঃ৩০</string>
+
+    <!--Shohag Scania-->
+    <string name="Shohag_Scania1">বেনাপোল - ফরিদপুর - চট্টগ্রাম</string>
+
+    <!--Shoagh Scania(AC)-->
+    <string name="ShoaghTime">ফরিদপুর - চট্রগ্রাম </string>
+    <string name="ShoaghTimeTB">   রাত ১০.০০</string>
+
+    <!--J.R-->
+    <string name="JR1">মেহেরপুর - ফরিদপুর - চট্টগ্রাম</string>
+    <string name="JR2">চুয়াডাঙ্গা - ফরিদপুর - চট্টগ্রাম</string>
+
+    <!--J.R-->
+    <string name="JRTime1">ফরিদপুর - চট্রগ্রাম </string>
+    <string name="JRTime1TB">   রাত ৬ঃ৩০</string>
+    <string name="JRTime2">ফরিদপুর - চট্টগ্রাম </string>
+    <string name="JRTime2TB">  রাত ৭.০০</string>
+
+    <!--Mamun Express-->
+    <string name="Mamun1">জীবনগর - ফরিদপুর - সিলেট</string>
+    <string name="Mamun2">সাতক্ষীরা - ফরিদপুর - সিলেট</string>
+    <string name="Mamun3">খুলনা - ফরিদপুর - সিলেট</string>
+    <string name="Mamun4">শ্যামনগর - ফরিদপুর - সিলেট</string>
+    <string name="Mamun5">জীবনগর - ফরিদপুর - নোয়াখালী</string>
+    <string name="Mamun6">জীবনগর - ফরিদপুর - নারায়নগঞ্জ</string>
+
+    <!--mamun-->
+    <string name="MamunTime1">ফরিদপুর - সিলেট</string>
+    <string name="MamunTime1TB">    রাত-৮ঃ৩০ </string>
+    <string name="MamunTime2">ফরিদপুর - সিলেট</string>
+    <string name="MamunTime2TB">    রাত-৮ঃ৩০ </string>
+    <string name="MamunTime3">ফরিদপুর - সিলেট</string>
+    <string name="MamunTime3TB">   বিকাল-৯ঃ৩০ </string>
+    <string name="MamunTime4">ফরিদপুর - সিলেট</string>
+    <string name="MamunTime4TB">    রাত-৯ঃ৩০ </string>
+    <string name="mamunTime5">ফরিদপুর -নোয়াখালী</string>
+    <string name="mamunTime5TB">   রাত-৯ঃ৩০ </string>
+    <string name="mamunTime6">ফরিদপুর -নারায়ণগঞ্জ</string>
+    <string name="mamunTime6TB">    বিকাল-১০ঃ৩০ </string>
+
+    <!--A.K Travels-->
+    <string name="AK_Travels1">সাতক্ষীরা - ফরিদপুর - চট্টগ্রাম</string>
+
+    <!--A.K Travels-->
+    <string name="AK_Travels_Time">ফরিদপুর - চট্টগ্রাম </string>
+    <string name="AK_Travels_TimeTB">   রাত-১০ঃ৩০ </string>
+
+    <!--London Express-->
+    <string name="London_Express1">বেনাপোল - ফরিদপুর - চট্টগ্রাম</string>
+    <string name="London_Express2">বেনাপোল - ফরিদপুর - সিলেট</string>
+
+    <!--Time-->
+    <string name="London_Express_Time">ফরিদপুর - চট্টগ্রাম  </string>
+    <string name="London_Express_TimeTB">  রাত-১০ঃ০০ </string>
+    <string name="London_Express_Time1">ফরিদপুর - সিলেট  </string>
+    <string name="London_Express_TimeTB1">   রাত-১০ঃ০০  </string>
+
+</resources>

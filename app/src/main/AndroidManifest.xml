@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hrido.mainproject">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_741411"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Start_home"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".purbasha_home" android:parentActivityName=".MainActivity" />
+        <activity android:name=".goldenline_home" android:parentActivityName=".MainActivity" />
+        <activity android:name=".eagle" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Royal_home" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Hanif_home" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Southline_home" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Shohagscaina_home" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Jr_home" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Mamunexpress_home" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Aktravels_home" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Londonexpress_home" android:parentActivityName=".MainActivity" />
+
+
+        <activity android:name=".Des_time_South" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Des_time_golden" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Das_Time_purbasha" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Das_time_Eagle" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Das_Time_Royal" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Das_Time_Hanif" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Das_Time_Shohag" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Des_Time_JR" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Des_Time_Mamun" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Des_Time_Ak" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Des_Time_London" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+
+        <activity android:name=".Amount_South" android:parentActivityName=".Southline_home" />
+        <activity android:name=".Amount_Golden" android:parentActivityName=".goldenline_home" />
+        <activity android:name=".Amount_Purbasha" android:parentActivityName=".purbasha_home" />
+        <activity android:name=".Amount_Eagle" android:parentActivityName=".eagle" />
+        <activity android:name=".Amount_Royal" android:parentActivityName=".Royal_home" />
+        <activity android:name=".Amount_Hanif" android:parentActivityName=".Hanif_home" />
+        <activity android:name=".Amount_Shohag" android:parentActivityName=".Shohagscaina_home" />
+        <activity android:name=".Amount_Jr" android:parentActivityName=".Jr_home" />
+        <activity android:name=".Amount_Mamun" android:parentActivityName=".Mamunexpress_home" />
+        <activity android:name=".Amount_Ak" android:parentActivityName=".Aktravels_home" />
+        <activity android:name=".Amount_London" android:parentActivityName=".Londonexpress_home" />
+
+
+        <activity android:name=".Choice_Seat" android:parentActivityName=".goldenline_home" />
+        <activity android:name=".Choise_Seat_Ak" android:parentActivityName=".Aktravels_home" />
+        <activity android:name=".Choise_Seat_Eg" android:parentActivityName=".eagle" />
+        <activity android:name=".Choise_Seat_Hanif" android:parentActivityName=".Hanif_home" />
+        <activity android:name=".Choise_Seat_JR" android:parentActivityName=".Jr_home" />
+        <activity android:name=".Choise_Seat_London" android:parentActivityName=".Londonexpress_home" />
+        <activity android:name=".Choise_Seat_Mamun" android:parentActivityName=".Mamunexpress_home" />
+        <activity android:name=".Choise_Seat_Purbasha" android:parentActivityName=".purbasha_home" />
+        <activity android:name=".Choise_Seat_Royal" android:parentActivityName=".Royal_home" />
+        <activity android:name=".Choise_Seat_Shohag" android:parentActivityName=".Shohagscaina_home" />
+        <activity android:name=".Choise_Seat_Southline" android:parentActivityName=".Southline_home" />
+        <activity android:name=".Ticket_Location" android:parentActivityName=".Aktravels_home" />
+
+
+        <activity android:name=".Buy_Ticket_Eagle" android:parentActivityName=".eagle" />
+        <activity android:name=".Buy_Ticket_Hanif" android:parentActivityName=".Hanif_home" />
+        <activity android:name=".Buy_Ticket_Jr" android:parentActivityName=".Jr_home" />
+        <activity android:name=".Buy_Ticket_Mamun" android:parentActivityName=".Mamunexpress_home" />
+        <activity android:name=".Buy_Ticket_Royal" android:parentActivityName=".Royal_home" />
+        <activity android:name=".Buy_Ticket_Shohag" android:parentActivityName=".Shohagscaina_home" />
+        <activity android:name=".Buy_Ticket_London" android:parentActivityName=".Londonexpress_home" />
+        <activity android:name=".Buy_Ticket_Purbasha" android:parentActivityName=".purbasha_home" />
+        <activity android:name=".Buy_Ticket_Golden" android:parentActivityName=".goldenline_home" />
+        <activity android:name=".Buy_Ticket_South" android:parentActivityName=".Southline_home" />
+        <activity android:name=".Send_Email" />
+    </application>
+
+</manifest>
